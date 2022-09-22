@@ -1,7 +1,7 @@
 {
-  "name": "@alias-code-is-law/alias-ui-framework-presets",
+  "name": "@alias-code-is-law/alias-tailwind-presets",
   "version": "0.0.1",
-  "main": "dist/lib/alias-ui-framework-presets.cjs",
+  "main": "dist/lib/alias-tailwind-presets.cjs",
   "license": "MIT",
   "files": [
     "dist"
