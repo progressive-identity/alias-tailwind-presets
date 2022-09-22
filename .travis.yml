@@ -1,0 +1,19 @@
+language: node_js
+branches:
+  only:
+    - main
+    - staging
+install:
+  - npm ci
+cache: npm
+script:
+  - npm run build
+deploy:
+  provider: npm
+  email: $NPM_EMAIL
+  api_key: $NPM_TOKEN
+  on:
+    branch: main
+    tags: false # TODO: see if we want to activate this. If true, it means a tagged commit must be done to activate the npm publish
+  skip_cleanup: true
+
