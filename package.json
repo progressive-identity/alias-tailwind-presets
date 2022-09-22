@@ -19,5 +19,11 @@
   "volta": {
     "node": "16.17.0"
   },
+  "release": {
+    "branches": ["main"]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "sideEffects": false
 }
